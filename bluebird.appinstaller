@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://bluebird-developers.github.io/releases/bluebird.appinstaller"
+	Version="5.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<!-- MainBundle includes packages for X86, X64 and ARM64-->
+	<MainBundle
+		Name="57443TechFireX.BlueBirdBrowser"
+		Version="5.0.0.0"
+		Publisher="CN=787233D4-4D29-47D2-B29A-AD3E99C44FE7"
+		Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Bluebird-5.0.0.0.msixbundle" />
+	<Dependencies>
+		<!-- x86 -->
+		<Package
+			Name="Microsoft.UI.Xaml.2.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.UI.Xaml.2.8_8.2310.30001.0_x86.Appx"
+			Version="8.2310.30001.0" />
+		<Package
+			Name="Microsoft.NET.Native.Framework.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86.Appx"
+			Version="2.2.29512.0" />
+		<Package
+			Name="Microsoft.NET.Native.Runtime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86.Appx"
+			Version="2.2.28604.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.VCLibs.140.00_14.0.33519.0_x86.Appx"
+			Version="14.0.33519.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.VCLibs.140.00_14.0.33519.0_x86.Appx"
+			Version="14.0.33728.0" />
+		<!-- x64-->
+		<Package
+			Name="Microsoft.UI.Xaml.2.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64.Appx"
+			Version="8.2310.30001.0" />
+		<Package
+			Name="Microsoft.NET.Native.Framework.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64.Appx"
+			Version="2.2.29512.0" />
+		<Package
+			Name="Microsoft.NET.Native.Runtime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64.Appx"
+			Version="2.2.28604.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.VCLibs.140.00_14.0.33519.0_x64.Appx"
+			Version="14.0.33519.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.VCLibs.140.00_14.0.33519.0_x64.Appx"
+			Version="14.0.33728.0" />
+		<!-- arm64 -->
+		<Package
+			Name="Microsoft.UI.Xaml.2.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.UI.Xaml.2.8_8.2310.30001.0_arm64.Appx"
+			Version="8.2310.30001.0" />
+		<Package
+			Name="Microsoft.NET.Native.Framework.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.NET.Native.Framework.2.2_2.2.29512.0_arm64.Appx"
+			Version="2.2.29512.0" />
+		<Package
+			Name="Microsoft.NET.Native.Runtime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_arm64.Appx"
+			Version="2.2.28604.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.VCLibs.140.00_14.0.33519.0_arm64.Appx"
+			Version="14.0.33519.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm64"
+			Uri="https://github.com/bluebird-developers/browser/releases/download/5.0.0/Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_arm64.Appx"
+			Version="14.0.33728.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="12" />
+	</UpdateSettings>
+</AppInstaller>
